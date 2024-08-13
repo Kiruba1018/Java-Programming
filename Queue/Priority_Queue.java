@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Priorityqueue{
+public class Priority_Queue{
     Node head;
     
     class Node{
@@ -14,7 +14,7 @@ public class Priorityqueue{
             next = null;
         }
     }
-    Priorityqueue(){
+    Priority_Queue(){
         head = null;
     }
     public void enqueue(int val, int pri){
@@ -52,7 +52,7 @@ public class Priorityqueue{
     }
     public static void main(String args[]){
         Scanner sc = new Scanner (System.in);
-        Priorityqueue q1 = new Priorityqueue();
+        Priority_Queue q1 = new Priority_Queue();
         q1.enqueue(10,2);
         q1.enqueue(20,0);
         q1.enqueue(30,1);
