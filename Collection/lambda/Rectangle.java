@@ -2,7 +2,7 @@ package lambda;
 
 import java.util.*;
 @FunctionalInterface
-interface rectangle
+interface Rectangle
 {
     int print(int l,int b);
 }
@@ -25,7 +25,7 @@ class Main {
     {
      Scanner s = new Scanner(System.in);
     //Area of the Rectangle
-     rectangle r = (int l,int b) ->{
+     Rectangle r = (int l,int b) ->{
         return (l*b);
      };
      int l = s.nextInt();
