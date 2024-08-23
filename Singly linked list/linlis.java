@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class linlis {
+public class Linlis {
     Node head;
     class Node
     {
@@ -13,7 +13,7 @@ public class linlis {
             next = null;
         }
     }
-    linlis()
+    Linlis()
     {
         head = null;
     }
@@ -155,7 +155,7 @@ public class linlis {
     }
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        linlis list = new linlis();
+        Linlis list = new Linlis();
         System.out.println("Enter the value of n:");
         int n = s.nextInt();
         System.out.println("Enter  values");
