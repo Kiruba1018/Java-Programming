@@ -1,5 +1,5 @@
 import java.util.*;
-class vectorinsert {
+class Vectorinsert {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Vector <Integer> v = new Vector<>();
