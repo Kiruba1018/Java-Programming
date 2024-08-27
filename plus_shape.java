@@ -1,4 +1,4 @@
- class plusshape {
+ class plus_shape {
     
     public static void main(String[] args)
     {
