@@ -6,7 +6,7 @@ interface Rectangle
 {
     int print(int l,int b);
 }
-interface square
+interface Square
 {
     int print(int l1);
 }
@@ -33,7 +33,7 @@ class Main {
      System.out.println("Area of the Rectangle is "+r.print(l,b));
 
     //Area of the Square
-     square sq = (int l1) ->{
+     Square sq = (int l1) ->{
         return (l1*l1);
      };
      int l1 = s.nextInt();
