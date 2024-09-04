@@ -23,7 +23,7 @@ interface circle
 class Main {
     public static void main(String[] args)
     {
-     Scanner s = new Scanner(System.in);
+     Scanner sc = new Scanner(System.in);
     //Area of the Rectangle
      Rectangle r = (int l,int b) ->{
         return (l*b);
